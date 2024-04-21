@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Question. 3</title>
+</head>
+
+<body>
+  <!-- <div class="logodiv">
+    <img src="Vishwa_Adarsha_Academy.png" alt="Vishwa_Adarsha_Academy.png" class="logo">
+  </div> -->
+  
+  <header>
+    <img src="Vishwa_Adarsha_Academy.png" alt="Vishwa_Adarsha_Academy.png" class="logo">
+    <nav>
+      <ul>
+        <span>
+          <b>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Resources +</a></li>
+            <li><a href="#">Updates +</a></li>
+            <li><a href="#">Academic +</a></li>
+            <li><a href="#">Courses +</a></li>
+            <li><a href="#">Contact</a></li>
+          </b>
+        </span>
+      </ul>
+    </nav>
+  </header>
+  
+  <section class="introduction">
+    <div class="line"></div>
+    <h1 class="fh1">We strengthen students</h1>
+    <p class="fp">Providing Quality Education To Help Individuals Grow.</p>
+    <img src="College_photo.png" class="college">
+  </section>
+  
+  <section class="about">
+    <img src="VAC_logo.png" class="VAC_logo">
+    <div class="introduction_line"></div>
+    <h1 class="sh1">Introducing Vishwa Adarsha</h1>
+    <p class="sp">
+      Vishwa Adarsha College, established in 2055 B.S. by a group of qualified and dedicated professionals, is one of the leading institutions in the eastern part of Nepal. It has been running it's plus two programs right from its Inception. It is an umbrella institution for plus two (Science & Management).
+    </p>
+  </section>
+  
+  <!-- <footer>
+    <img src="VAC_logo.png" alt="VAC_logo.png" class="footerlogo">
+  </footer> -->
+</body>
+
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    height: 7rem; 
+    background-color: white;
+    position: fixed;
+    z-index: 10;
+  }
+  nav ul li{
+    display: inline;
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+  }
+  nav ul li a:hover{
+    color: #d63333;
+  }
+  span{
+    font-family: times;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: black;
+  }
+  .logo{
+    height: 100px;
+    width: 100px;
+  }
+  .introduction{
+    padding-top: 6rem;
+    position: relative;
+  }
+  .college{
+    width: 100vw;
+    opacity: 0.9;
+  }
+  .line, .introduction_line{
+    background-color: red;
+    height: 5px;
+    width: 3rem;
+    z-index: 5;
+    position: absolute;
+  }
+  .line{
+    top: 50%;
+  }
+  .fh1,.fp{
+    color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    font-size: 2rem;
+  }
+  .fp{
+    top: 60%;
+  }
+  .VAC_logo, h1, p, .line, .introduction_line{
+    margin-left: 45px;
+  }
+  .sh1, .sp{
+    padding-top: 20px;
+    /* padding-top: 20px; */
+    max-width: 85vw;
+  }
+  body{
+    padding-bottom: 100px;
+    font-family: arial;
+  }
+  /* footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    clear: both;
+    text-align: center;
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 100vw;
+  }
+  .footerlogo{
+    height: 100px;
+    width: 100px;
+  } */
+</style>
+
+</html>

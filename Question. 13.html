@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="first">
+        <h1 align="center">VisionForge Solutions</h1>
+        <div class="div1">
+          <h3>
+            Unlock Your Vision: Achieve Success with Our Business Solutions.
+          </h3>
+          <p>
+            At VisionForge Solutions, we turn your visions into achievements. Our solutions streamline operations, expand market reach, and innovate products and services. With our expertise, we empower success in today's dynamic landscape.
+          </p>
+        </div>
+        <div class="div2">
+          <form action="#" method="get">
+            <input type="email" placeholder="Insert your email">
+            <input type="submit" value="Sign Up">
+          </form>
+        </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p align="center">
+      &copy; Copyrights Reserved 2024
+    </p>
+  </footer>
+</body>
+
+<style>
+/*   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+ */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #401C8C;
+    font-family: /* 'Poppins', */ sans-serif;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  header{
+    background-color: #260259;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    top: 0; right: 0;
+  }
+  nav ul li {
+    color: black;
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #AE7EF2;
+    border-radius: 5px;
+  }
+  main {
+    /* margin: 0 50px; */
+    /* margin-top: 100px; */
+    margin: 100px 50px;
+  }
+/*   .first {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+} */
+  h1 {
+    color: #ccc;
+    margin: 20px;
+  }
+  .div1 {
+    max-width: 75vw;
+    background-color: rgba(255, 255, 255, 0.35);
+    border-radius: 7px;
+    padding: 20px;
+    font-size: 25px;
+    color: whitesmoke;
+    /* word-break: break-all; */
+    word-wrap: break-word;
+  }
+  .div1 > h3, p {
+    max-width: 95%;
+  }
+  .div1 > p{
+    margin-top: 10px;
+  }
+  .div2 {
+    float: right;
+    /* max-width: 75vw; */
+    border-radius: 7px;
+    padding: 20px;
+    display: inline-block;
+  }
+  input[type="email"]{
+    width: 300px;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+  }
+  input[type="submit"]{
+    background-color: #CAF272;
+    color: black;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 25px;
+    border: none;
+  }
+  ::placeholder{
+    color: black;
+  }
+  footer {
+    margin-top: auto; 
+    padding: 15px;
+    background-color: #260259;
+    color: white;
+  }
+</style>
+</html>

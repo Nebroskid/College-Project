@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Question. 7</title>
+</head>
+<body>
+  <div class="loginbox">
+  <h2 align="center">Log in</h2>
+  <form action="#" method="get">
+    <input type="text" name="Username" placeholder="Username" required>
+    <input type="password" name="Password" placeholder="Password" required>
+    <input type="submit" value="Log in">
+  </form>
+  </div>
+</body>
+
+<style>
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    background-color: #f0f0f0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loginbox{
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .loginbox h2{
+    margin-bottom: 20px;
+  }
+  .loginbox input[type="text"],
+  .loginbox input[type="password"]{
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  .loginbox input[type="submit"]{
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    border: none;
+    color: #ffff;
+    padding: 10px;
+    font-size: 18px;
+  }
+  .loginbox input[type="submit"]:hover{
+    background-color: #0056b3;
+  }
+</style>
+</html>
